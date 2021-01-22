@@ -22,7 +22,7 @@ class Menu extends Component {
         <Card onClick={() => this.onDishSelect(dish)}>
           <CardImg width="100%" object src={dish.image} alt={dish.name} />
           <CardImgOverlay>
-            <CardTitle heading1>{dish.name}</CardTitle>
+            <CardTitle>{dish.name}</CardTitle>
           </CardImgOverlay>
         </Card>
       </div>
